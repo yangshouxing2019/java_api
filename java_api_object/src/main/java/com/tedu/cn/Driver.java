@@ -6,6 +6,6 @@ public class Driver {
         Person p2=new Person("Jack",18,'N',170,70);
 
         System.out.println(p1.equals(p2));
-        System.out.println(p1);
+        System.out.println(p2);
     }
 }
