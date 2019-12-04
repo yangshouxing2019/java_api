@@ -10,6 +10,7 @@
   <modules>
     <module>java_api_object</module>
       <module>java_api_string</module>
+    <module>java-api-data</module>
   </modules>
   <packaging>pom</packaging>
 
