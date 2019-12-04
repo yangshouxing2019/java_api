@@ -26,6 +26,7 @@ public class DateDemo {
         System.out.println(d1.before(date));//判断d1这个时间是否在date这个时间之前。真为true
     }
 
+
     /**
      * 测试日期格式化
      */
