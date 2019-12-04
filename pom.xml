@@ -21,19 +21,13 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
-    <junit.driver.version>4.12</junit.driver.version>
+    <junit.driver.version>4.11</junit.driver.version>
     <mysql.driver.version>8.0.17</mysql.driver.version>
     <org.mybatis.driver.version>3.5.2</org.mybatis.driver.version>
   </properties>
 
   <dependencyManagement>
     <dependencies>
-      <dependency>
-        <groupId>junit</groupId>
-        <artifactId>junit</artifactId>
-        <version>${junit.diver.version}</version>
-        <scope>test</scope>
-      </dependency>
       <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
       <dependency>
         <groupId>mysql</groupId>
@@ -45,6 +39,11 @@
         <groupId>org.mybatis</groupId>
         <artifactId>mybatis</artifactId>
         <version>${org.mybatis.driver.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>junit</groupId>
+        <artifactId>junit</artifactId>
+        <version>${junit.driver.version}</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
