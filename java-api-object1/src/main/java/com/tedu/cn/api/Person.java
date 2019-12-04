@@ -1,4 +1,4 @@
-package com.tedu.cn;
+package com.tedu.cn.api;
 
 public class Person {
     public Person() {

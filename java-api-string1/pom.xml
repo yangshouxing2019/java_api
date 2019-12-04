@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>java-api-string</artifactId>
+    <artifactId>java-api-string1</artifactId>
     <packaging>jar</packaging>
     <dependencies>
         <dependency>
