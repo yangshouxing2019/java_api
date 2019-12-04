@@ -29,7 +29,6 @@ public class StringDemo {
         str1=str1.toLowerCase();
         System.out.println(str1);
     }
-
     /**
      * indexOf  返回所找字符在字符串中第一次出现的索引（从0开始）
      * lastIndexOf 返回所找字符在字符串中最后一次出现的索引（从0开始）
