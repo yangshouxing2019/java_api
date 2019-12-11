@@ -11,6 +11,8 @@
     <module>java-api-date</module>
     <module>qiannan-yzb-50</module>
     <module>java-api-io</module>
+    <module>java-api-string</module>
+    <module>java-api-object</module>
   </modules>
   <packaging>pom</packaging>
 
