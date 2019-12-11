@@ -8,11 +8,9 @@
   <artifactId>java_api</artifactId>
   <version>1.0-SNAPSHOT</version>
   <modules>
-    <module>java_api_object</module>
-      <module>java_api_string</module>
     <module>java-api-date</module>
-      <module>qiannan-yzb-50</module>
-      <module>java-api-io</module>
+    <module>qiannan-yzb-50</module>
+    <module>java-api-io</module>
   </modules>
   <packaging>pom</packaging>
 
