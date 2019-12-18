@@ -12,7 +12,7 @@ import java.util.Date;
 @Data
 @ToString
 @NoArgsConstructor
-@AllArgsConstructor//或安装插件project lombok
+@AllArgsConstructor//或安装插件project lombok 或构造有参构造器
 public class Emp implements Serializable {
     //员工类
     private int empno;  //工号

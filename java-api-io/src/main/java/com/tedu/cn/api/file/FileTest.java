@@ -166,17 +166,17 @@ public class FileTest {
     @Test
     //克隆 f1负责读 f2负责写
     public void m10() throws IOException {
-        File f1=new File("11.png");
-        RandomAccessFile raf1=new RandomAccessFile(f1,"r");
-        File f2=new File("12.png");
-        if(!f2.exists()){
+        File f1 = new File("11.png");
+        RandomAccessFile raf1 = new RandomAccessFile(f1, "r");
+        File f2 = new File("12.png");
+        if (!f2.exists()) {
             f2.createNewFile();
         }
-        RandomAccessFile raf2=new RandomAccessFile(f2,"rw");
+        RandomAccessFile raf2 = new RandomAccessFile(f2, "rw");
         //拷贝逻辑
-        byte[] bs=new byte[1024];
-        long len=0;
-        while ((len=raf1.read(bs))!=-1){
+        byte[] bs = new byte[1024];
+        long len = 0;
+        while ((len = raf1.read(bs)) != -1) {
             raf2.write(bs);
         }
         raf1.close();
