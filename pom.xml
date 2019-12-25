@@ -13,6 +13,7 @@
     <module>java-api-io</module>
     <module>java-api-string</module>
     <module>java-api-object</module>
+      <module>java-test</module>
   </modules>
   <packaging>pom</packaging>
 
